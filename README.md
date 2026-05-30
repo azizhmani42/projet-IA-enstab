@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎨 LogoForge AI
+# 🎨 LogoMaster AI
 
 ### Application IA pour Création de Logos et Designs
 
@@ -21,8 +21,8 @@
 
 | Nom | Rôle |
 |-----|------|
-| **Med Aziz Hmani** | Développeur Full-Stack |
-| **Med Aziz Torjmen** | Développeur Full-Stack |
+| **Med Aziz Hmani** | 2eme année DAD |
+| **Med Aziz Torjmen** | 2eme année EAN |
 
 ---
 
