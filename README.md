@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎨 LogoForge AI
+# 🎨 LogoMaster AI
 
 ### Application IA pour Création de Logos et Designs
 
