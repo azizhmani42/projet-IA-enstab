@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="description" content="LogoMaster AI — Créez des logos professionnels grâce à l'intelligence artificielle. Design unique, rapide et gratuit." />
+    <meta name="theme-color" content="#4f46e5" />
+    <title>LogoMaster AI — Créez votre Logo & Identité de Marque</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css?v=3" />
+</head>
+<body>
+
+    <!-- ============================================================
+         NAVBAR
+         ============================================================ -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Navigation principale">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo" aria-label="LogoMaster AI — Accueil">
+                <div class="nav-logo-icon" aria-hidden="true">
+                    <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="logoGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                                <stop offset="0%" stop-color="#4f46e5"/>
+                                <stop offset="50%" stop-color="#06b6d4"/>
+                                <stop offset="100%" stop-color="#ec4899"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M20 3 L35 11.5 L35 28.5 L20 37 L5 28.5 L5 11.5 Z"
+                              stroke="url(#logoGrad)" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+                        <path d="M20 13 L22 18 L27 18 L23 21.5 L24.5 27 L20 24 L15.5 27 L17 21.5 L13 18 L18 18 Z"
+                              fill="url(#logoGrad)"/>
+                    </svg>
+                </div>
+                <span class="nav-logo-text">Logo<em class="nav-logo-forge">Master</em><span class="nav-logo-ai"> AI</span></span>
+            </a>
+
+            <ul class="nav-links" role="list">
+                <li><a href="#generator" class="nav-link" id="nav-generator">Créer</a></li>
+                <li><a href="#gallery" class="nav-link" id="nav-gallery">Galerie</a></li>
+            </ul>
+
+            <div class="nav-badge" aria-label="Propulsé par l'IA">
+                <span class="nav-badge-dot" aria-hidden="true"></span>
+                IA Active
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+         HERO — Clean, centered
+         ============================================================ -->
+    <header class="hero" id="home">
+        <div class="container">
+            <div class="hero-badge fade-in-up" style="animation-delay:.1s">
+                <span class="hero-badge-dot"></span>
+                <span>Intelligence Artificielle · Génération Instantanée</span>
+            </div>
+
+            <h1 class="hero-title fade-in-up" style="animation-delay:.2s">
+                <span class="hero-title-icon" aria-hidden="true">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="heroGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                                <stop offset="0%" stop-color="#ff4072"/>
+                                <stop offset="100%" stop-color="#ff6b35"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M24 4 L42 14 L42 34 L24 44 L6 34 L6 14 Z"
+                              stroke="url(#heroGrad)" stroke-width="3" fill="rgba(255,64,114,0.06)"
+                              stroke-linejoin="round"/>
+                        <path d="M24 16 L26.5 22 L33 22 L27.5 26 L29.5 33 L24 29 L18.5 33 L20.5 26 L15 22 L21.5 22 Z"
+                              fill="url(#heroGrad)"/>
+                    </svg>
+                </span>
+                Logo & Brand Identity Design
+            </h1>
+
+            <p class="hero-subtitle fade-in-up" style="animation-delay:.35s">
+                Créez un logo <strong>unique</strong> et une identité de marque grâce à l'intelligence artificielle.
+                <strong>Rapide</strong>, <strong>gratuit</strong> et <strong>illimité</strong>.
+            </p>
+
+            <a href="#generator" class="hero-cta fade-in-up" style="animation-delay:.5s" id="hero-cta-btn">
+                <span class="cta-main">Créer mon Logo</span>
+                <span class="cta-sub">gratuit · en quelques secondes</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" class="cta-arrow">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- ============================================================
+         MAIN CONTENT
+         ============================================================ -->
+    <main>
+
+        <!-- ---- Generator ---- -->
+        <section class="generator-section section-reveal" id="generator" aria-labelledby="generator-heading">
+            <div class="container">
+                <div class="section-header" style="text-align:center;">
+                    <div class="section-eyebrow">✦ Atelier de Création</div>
+                    <h2 class="section-title" id="generator-heading">
+                        Décrivez votre <em class="section-title-em">vision</em>
+                    </h2>
+                    <p class="section-desc" style="margin:8px auto 0;">Notre IA transforme vos mots en logos professionnels en quelques secondes.</p>
+                </div>
+
+                <div class="generator-card">
+
+                    <!-- Prompt -->
+                    <div class="form-group">
+                        <label class="form-label" for="prompt-input">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4 12.5-12.5z"/></svg>
+                            Description du logo
+                            <span class="form-required" aria-label="obligatoire">*</span>
+                        </label>
+                        <div class="textarea-wrapper">
+                            <textarea
+                                class="prompt-input"
+                                id="prompt-input"
+                                placeholder="Ex: Un logo moderne pour une startup tech, avec un éclair stylisé en bleu et violet..."
+                                rows="3"
+                                aria-required="true"
+                                aria-describedby="prompt-hint"
+                            ></textarea>
+                            <div class="textarea-char-count" id="prompt-char-count" aria-live="polite">0 / 500</div>
+                        </div>
+                        <p class="form-hint" id="prompt-hint">Plus votre description est détaillée, meilleur sera le résultat</p>
+                    </div>
+
+                    <!-- Brand Name -->
+                    <div class="form-group">
+                        <label class="form-label" for="brand-name-input">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7V4h16v3M9 20h6M12 4v16"/></svg>
+                            Nom de la marque
+                            <span class="form-optional">(optionnel)</span>
+                        </label>
+                        <input
+                            type="text"
+                            class="text-input"
+                            id="brand-name-input"
+                            placeholder="Ex: NovaCorp, Lumière Studio..."
+                            value=""
+                            maxlength="80"
+                            autocomplete="off"
+                        />
+                    </div>
+
+                    <!-- Style -->
+                    <div class="form-group">
+                        <label class="form-label" id="style-label">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+                            Style visuel
+                        </label>
+                        <div class="style-selector" id="style-selector" role="radiogroup" aria-labelledby="style-label">
+                            <!-- Populated by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Colors -->
+                    <div class="form-group">
+                        <label class="form-label" for="color-input">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="13.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="10.5" r="2.5"/><circle cx="8.5" cy="7.5" r="2.5"/><circle cx="6.5" cy="12.5" r="2.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 011.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>
+                            Palette de couleurs
+                        </label>
+                        <div class="color-input-wrapper">
+                            <input
+                                type="text"
+                                class="text-input"
+                                id="color-input"
+                                placeholder="Ex: #4f46e5, #06b6d4"
+                            />
+                            <div class="color-presets" id="color-presets" role="group" aria-label="Palettes prédéfinies">
+                                <!-- Populated by JS -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Generate -->
+                    <button class="generate-btn" id="generate-btn" type="button" aria-label="Générer mon logo">
+                        <span class="generate-btn-shimmer" aria-hidden="true"></span>
+                        <svg class="generate-btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <span class="generate-btn-label">Générer mon Logo</span>
+                        <span class="generate-btn-shortcut" aria-hidden="true">Ctrl + ↵</span>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ---- Features ---- -->
+        <section class="features-section" id="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 110 20 10 10 0 010-20z"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <div class="feature-title">Intelligent</div>
+                        <p class="feature-desc">Notre IA comprend votre vision et génère des designs uniques adaptés à votre marque.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                        </div>
+                        <div class="feature-title">Professionnel</div>
+                        <p class="feature-desc">Résultats de qualité professionnelle dans tous les formats et tailles, prêts à l'emploi.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        </div>
+                        <div class="feature-title">Rapide</div>
+                        <p class="feature-desc">Génération en quelques secondes grâce à notre infrastructure IA optimisée et parallélisée.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---- Results ---- -->
+        <section class="results-section" id="results" aria-labelledby="results-heading" aria-live="polite">
+            <div class="container">
+                <div class="results-header">
+                    <div class="results-header-left">
+                        <div class="results-icon-wrap" aria-hidden="true">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        </div>
+                        <div>
+                            <h2 class="results-title" id="results-heading">Vos Créations</h2>
+                            <p class="results-count" id="results-count">0 logos générés</p>
+                        </div>
+                    </div>
+                    <div class="results-header-actions">
+                        <button class="results-action-btn results-regen-btn" id="regen-btn" type="button" title="Régénérer rapidement" onclick="App.quickRegenerate()">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 4v6h6"/><path d="M23 20v-6h-6"/><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10M23 14l-4.64 4.36A9 9 0 0 1 3.51 15"/></svg>
+                            Régénérer
+                        </button>
+                        <button class="results-action-btn" id="download-all-btn" type="button" title="Tout télécharger">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                            Tout télécharger
+                        </button>
+                    </div>
+                </div>
+                <div class="results-grid" id="results-grid"></div>
+            </div>
+        </section>
+
+        <!-- ---- Gallery ---- -->
+        <section class="gallery-section section-reveal" id="gallery" aria-labelledby="gallery-heading">
+            <div class="container">
+                <div class="section-header" style="text-align:center;">
+                    <div class="section-eyebrow">✦ Portfolio</div>
+                    <h2 class="section-title" id="gallery-heading">
+                        Vos <em class="section-title-em">Créations</em> Précédentes
+                    </h2>
+                    <p class="section-desc" style="margin:8px auto 0;">Retrouvez tous vos logos générés, prêts à être téléchargés.</p>
+                </div>
+
+                <div class="filter-bar" id="filter-bar" role="group" aria-label="Filtrer par style"></div>
+                <div class="gallery-grid" id="gallery-grid"></div>
+
+                <div class="empty-state" id="gallery-empty" style="display: none;" role="status">
+                    <div class="empty-state-icon" aria-hidden="true">
+                        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="20" width="60" height="45" rx="8" stroke="currentColor" stroke-width="3" fill="none" stroke-dasharray="6 4"/>
+                            <path d="M30 35l10 10 10-10" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                            <circle cx="40" cy="28" r="4" stroke="currentColor" stroke-width="2.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="empty-state-title">Aucun logo pour l'instant</h3>
+                    <p class="empty-state-text">Créez votre premier logo en quelques secondes grâce à notre IA.</p>
+                    <a href="#generator" class="empty-state-cta">Créer un logo →</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================================
+         FOOTER
+         ============================================================ -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-logo" aria-hidden="true">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                    <path d="M16 2L29 9.5V22.5L16 30L3 22.5V9.5Z" stroke="url(#footerGrad2)" stroke-width="2" fill="none" stroke-linejoin="round"/>
+                    <path d="M16 10L17.8 15H23L18.6 18L20 23L16 20.5L12 23L13.4 18L9 15H14.2Z" fill="url(#footerGrad2)"/>
+                    <defs>
+                        <linearGradient id="footerGrad2" x1="3" y1="2" x2="29" y2="30" gradientUnits="userSpaceOnUse">
+                            <stop offset="0%" stop-color="#ff4072"/>
+                            <stop offset="100%" stop-color="#ff6b35"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span>LogoMaster AI</span>
+            </div>
+            <p class="footer-credits">
+                Conçu par <span>Med Aziz Hmani</span> &amp; <span>Med Aziz Torjmen</span>
+            </p>
+            <p class="footer-tagline">Propulsé par l'intelligence artificielle</p>
+            <p class="footer-project">Projet IA · 2025</p>
+        </div>
+    </footer>
+
+    <!-- ============================================================
+         BARRE DE PROGRESSION COMPACTE (non-bloquante)
+         ============================================================ -->
+    <div class="progress-bar-wrap" id="loading-overlay" role="status" aria-label="Génération en cours" aria-hidden="true">
+        <div class="progress-bar-inner" id="progress-bar-inner"></div>
+        <div class="progress-bar-label">
+            <span class="progress-spinner" aria-hidden="true"></span>
+            <span id="progress-bar-text">⚡ Génération en cours...</span>
+        </div>
+    </div>
+
+    <!-- ============================================================
+         LIGHTBOX
+         ============================================================ -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Aperçu du logo" aria-hidden="true">
+        <button class="lightbox-close" aria-label="Fermer l'aperçu">&times;</button>
+        <img class="lightbox-image" id="lightbox-image" src="" alt="Aperçu du logo" />
+        <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+
+    <!-- ============================================================
+         TOAST CONTAINER
+         ============================================================ -->
+    <div class="toast-container" id="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- ============================================================
+         SCRIPTS
+         ============================================================ -->
+    <script src="js/particles.js?v=4"></script>
+    <script src="js/api.js?v=4"></script>
+    <script src="js/gallery.js?v=4"></script>
+    <script src="js/app.js?v=4"></script>
+
+</body>
+</html>
