@@ -77,13 +77,15 @@ L'application offre une interface web moderne et intuitive où les utilisateurs 
 ## 📸 Captures d'écran
 
 ### Page d'accueil & Formulaire de génération
-> *Capture d'écran à ajouter après le premier lancement*
+![Description](screenshots/interface.png)
+![Description](screenshots/génération.png)
+
 
 ### Résultats de génération
-> *Capture d'écran à ajouter après le premier lancement*
+![Description](screenshots/résultats.png)
 
 ### Galerie
-> *Capture d'écran à ajouter après le premier lancement*
+![Description](screenshots/galerie.png)
 
 ---
 
