@@ -28,7 +28,7 @@
 
 ## 📋 Description
 
-**LogoForge AI** est une application web complète permettant de générer des logos et designs professionnels à l'aide de **Stable Diffusion XL**, un modèle d'IA générative basé sur la diffusion (Diffusion Model / Transformer).
+**LogoMaster AI** est une application web complète permettant de générer des logos et designs professionnels à l'aide de **Stable Diffusion XL**, un modèle d'IA générative basé sur la diffusion (Diffusion Model / Transformer).
 
 L'application offre une interface web moderne et intuitive où les utilisateurs peuvent :
 - Décrire le logo souhaité en langage naturel
@@ -108,7 +108,7 @@ https://github.com/azizhmani42/projet-IA-enstab/blob/main/démo_courte.mp4
 
 ```bash
 git clone https://github.com/votre-username/logoforge-ai.git
-cd logoforge-ai
+cd logoMaster-ai
 ```
 
 #### 2. Créer un environnement virtuel
@@ -148,7 +148,7 @@ python backend/app.py
 #### 6. Ouvrir dans le navigateur
 
 ```
-http://localhost:5000
+http://localhost:8080
 ```
 
 ---
@@ -242,7 +242,7 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 
 <div align="center">
 
-**Fait avec ❤️ par Med Aziz Hmani & Med Aziz Torjmen**
+**Fait par Med Aziz Hmani & Med Aziz Torjmen**
 
 *Projet IA — 2025*
 
