@@ -90,8 +90,8 @@ L'application offre une interface web moderne et intuitive où les utilisateurs 
 ---
 
 ## 🎬 Démonstration
+https://github.com/azizhmani42/projet-IA-enstab/blob/main/démo_courte.mp4
 
-> 📹 **Vidéo de démonstration** : [Lien vers la démo vidéo](*à compléter*)
 
 ---
 
